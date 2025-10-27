@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      display: flex;
+      height: 100vh;
+      align-items: center;
+
+      justify-content: center;
+   flex-direction: column;
+    }
+    .label2{
+      font-weight: 800;
+    }
+    .label_1{
+      font-weight: 200;
+    }
+    .label_p{
+      width: 50%;
+    }
+    .container{
+      display: flex;
+      gap: 10px;
+      
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+    .container2{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+    }
+    .card{
+      display: flex;
+      box-shadow:1px 1px 5px rgb(51, 45, 45) ;
+     
+      width: 300px;
+      padding: 10px;
+      height: fit-content;
+    }
+     .content div{
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      max-width: 700px;
+    }
+    .team{
+      border-top: 3px solid hsl(0, 78%, 62%);
+    }
+
+    .Supervisor{
+     border-top: 3px solid hsl(180, 62%, 55%);
+    }
+    .Karma{
+           border-top: 3px solid hsl(34, 97%, 64%); 
+    }
+    .Calculator{
+      border-top: 3px solid hsl(212, 86%, 64%);
+    }
+   @media (max-width: 700px) {
+    .container{
+      flex-wrap: wrap;
+    }
+   }
+  </style>
+</head>
+<body>
+
+<h1 class="label_1">Reliable, efficient delivery</h1>
+<h1 class="label2">Powered by Technology</h1>
+<p class="label_p">
+  Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful</p>
+
+  <div class="container">
+
+    <div class="Supervisor card">
+        <div class="content">
+
+          <h1>Supervisor</h1>
+          <p>Monitors activity to identify project roadblocks</p>
+          <div>
+          <img src="images/icon-supervisor.svg" alt="">
+          </div>
+
+        </div>
+     
+    </div>
+    <div class="container2">
+
+      
+     <div class="team card">
+        <div class="content">
+
+          <h1>Team Builder</h1>
+          <p>Scans our talent network to create the optimal team for your project</p>
+          <div>
+          <img src="images/icon-team-builder.svg" alt="">
+          </div>
+
+        </div>
+     
+    </div>
+     <div  class="Karma card">
+      <div class="content">
+
+          <h1>Karma</h1>
+          <p>Regularly evaluates our talent to ensure quality</p>
+          <div>
+          <img src="images/icon-karma.svg" alt="">
+          </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div  class="Calculator card">
+<div class="content">
+
+          <h1>Calculator</h1>
+          <p>Uses data from past projects to provide better delivery estimates</p>
+          <div>
+          <img src="images/icon-calculator.svg" alt="">
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!--
+  Reliable, efficient delivery
+  Powered by Technology
+
+  Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful
+
+  Supervisor
+  Monitors activity to identify project roadblocks
+
+  Team Builder
+  Scans our talent network to create the optimal team for your project
+
+  Karma
+  Regularly evaluates our talent to ensure quality
+
+  Calculator
+  Uses data from past projects to provide better delivery estimates
+
+  -->
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
